@@ -1,0 +1,817 @@
+/*
+    Theme Name: Adventure
+    Description: Adventure theme geared at travelogues and darker sites.
+    Author: PHPZEN  http://www.phpzen.com/
+    Modified by: Jorux  http://www.jorux.com/  
+  */
+body{
+	background-image: url(Adventure/bkg.gif);
+	background-repeat: repeat;
+	font-family: Verdana, Arial, Tahoma, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #600;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #600;
+	}
+a:visited {
+	color: #600;
+	}
+a:hover {
+	color: #966;
+	}
+ul{
+	list-style: none; 
+	list-style-position : outside;
+	margin:0 0 0 0;
+
+	padding:0 0 0 0;
+	word-break:break-all;
+}
+li{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+p{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	word-break:break-all;
+	color: #000000;
+}
+img{
+	border-style: none;
+}
+img.thumb {
+	float: left;
+	margin: 0px 5px 5px 0px;
+	padding: 0px;
+	border: 0px;
+	padding: 0px;
+	max-width: 500px;
+	max-height:500px;
+	overflow:hidden;
+	clear:both;
+}
+
+#divAll{
+	padding:0;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	width: 950px;
+}
+
+#divPage{
+	width:950px;
+	margin:0;
+	text-align:left;
+	float:left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#divMiddle{
+	width:950px;
+	margin:0;
+	text-align:left;
+	float:left;
+	background-color: #FFFFFF;
+	padding: 0px;
+}
+#divTop{
+	width:950px;
+	text-align:right;
+	float:left;
+	background-image: url(Adventure/headw.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	vertical-align: bottom;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 205px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#divSidebar{
+	width:210px;
+	margin:0;
+	text-align:left;
+	float:right;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+#divMain{
+	float: left;
+	width: 730px;
+	height:100%;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #999999;
+	background-color: transparent;
+	background-image: url(Adventure/st.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+div.search h3{
+	margin:0;
+	padding:10px 0 0 25px;
+	color: #3C7FE2;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: 0 8px;
+	text-align: left;
+}
+#divBottom{
+	position: relative;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 1.15em;
+	font-size: 12px;
+	color: #555;
+	background-color: #fff;
+	background-image: url(Adventure/bgb.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 70px;
+}
+
+
+
+#BlogTitle{
+	padding:0;
+	font-family: Verdana, Arial, Helvetica, sans-serif, ËÎÌו;
+	font-size: 24px;
+	margin-top: 70px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 60px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+#BlogTitle a{
+	color:#000000;
+	text-decoration: none;
+}
+#BlogTitle a:hover {
+	color: #E4E5EA;
+}
+#BlogTitle a:active {
+	color: #E4E5EA;
+}
+#BlogSubTitle{
+	list-style: disc;
+	padding:0;
+	color: #FFF;
+	text-transform:none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	margin-top: 40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	text-align: left;
+}
+
+#BlogPowerBy,#BlogCopyRight{
+	margin:0;
+	font-size: 12px;
+	text-align: center;
+	font-weight:normal;
+	height:20px;
+	color: #000000;
+	padding-top: 5px;
+	background-position: 0px bottom;
+	background-repeat: no-repeat;
+}
+#BlogCopyRight a,#BlogPowerBy a{
+	color: #000000;
+
+}
+
+
+
+#divNavBar{
+	width:950px;
+	height:34px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -24px;
+	position: relative;
+	clear: both;
+	float: left;
+	margin-bottom: 0px;
+}
+
+#divNavBar h3{
+	display:none;
+}
+
+#divNavBar ul{
+	margin: 0;
+	border-bottom: 1px solid #FFF;
+	padding-bottom: 10px;
+}
+
+#divNavBar li{
+	display: inline;
+	list-style: none;
+	margin-right: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10px;
+	background-repeat: repeat-x;
+	padding: 2px;
+}
+
+#divNavBar a{
+	color: #FFFFFF;
+	font-weight: bold;
+	display: inline;
+	font-size: 14px;
+}
+
+#divNavBar a:link {
+	text-decoration: none;
+}
+#divNavBar a:visited {
+	text-decoration: none
+}
+#divNavBar a:hover {
+	padding-bottom: 2px;
+	margin-bottom: 0;
+	color: #FF9900;
+}
+div.function {
+	float:left;
+	width:195px;
+	text-align:left;
+	background-image: url(Adventure/hr.gif);
+	background-repeat: repeat-x;
+	background-position: 0 100%;
+	padding: 0;
+	margin-top: 0;
+	margin-right: 5px;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+div.function h3{
+	margin:0;
+	padding:10px 0 0 25px;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: 0 8px;
+}
+div.function ul{
+	text-align:left;
+	width:190px;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-top: 2px;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding-top: 3px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 10px;
+}
+div.function li{
+	margin:0 0 0 0;
+	padding:0 0 1px 20px;
+	background-image: url(Adventure/bull1.gif);
+	background-repeat: no-repeat;
+	background-position: 4px 6px;
+}
+
+#divMisc{
+	padding:10px 0 5px 0;
+}
+#divMisc h3{
+	display: none;
+}
+#divMisc li{
+	padding:2px 0 2px 15px;
+	background-image : none;
+}
+
+#divContorPanel li{
+	background-image : none;
+}
+
+#divSearchPanel input{
+	padding: 2px;
+	margin:0;
+	background-color: #fefefe;
+	border: 1px solid #ccc;
+}
+#divSearchPanel li{
+	background-image : none;
+}
+
+#divCalendar{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+}
+
+#divCalendar h3{
+	display:none;
+	font-size: 12px;
+}
+
+#divCalendar div{
+	width:180px;
+	padding-top: 5px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+p.w{
+	float:left;
+	width:23px;
+	height:12px;
+	margin:4px 0 0 0;
+	padding:0 0 2px 0;
+	text-align:center;
+	vertical-align :middle;
+	font-size:9px;
+	border-top:1px solid #aaaaaa;
+	border-bottom:1px solid  #aaaaaa;
+}
+
+p.y{
+	text-align:center;
+	height:15px;
+	margin:0;
+	padding:0 0 0 0;
+	float:left;
+	width:161px;
+	font-size:15px;
+	font-weight:bold;
+}
+p.d{
+	float:left;
+	width:23px;
+	height:21px;
+	margin:0 0 0 0;
+	padding:2px 0 0 0;
+	text-align:center;
+	vertical-align :middle;
+}
+p.yd{
+	float:left;
+	width:23px;
+	height:21px;
+	margin:0 0 0 0;
+	padding:2px 0 0 0;
+	text-align:center;
+	vertical-align :middle;
+	color:#6090c0;
+	font-weight : bold;
+}
+p.nd{
+	float:left;
+	width:23px;
+	height:21px;
+	margin:0 0 0 0;
+	padding:2px 0 0 0;
+	text-align:center;
+	vertical-align :middle;
+}
+
+
+
+
+div.post {
+	width:700px;
+	padding:0;
+	text-align:left;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	background-image: url(Adventure/hr.gif);
+	background-repeat: repeat-x;
+	background-position: 0 100%;
+	color: #000000;
+}
+div.post-nav {
+	width:100%;
+	clear:both;
+	float:left;
+}
+div.post-nav a.l{
+	float:left;
+	padding:0 10px 5px 5px;
+}
+div.post-nav a.r{
+	float:right;
+	padding-left:10px;
+	padding-bottom:5px;
+}
+
+div.post .post-title{
+	width:690px;
+	color: #600;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 2px;
+	margin-left: 0;
+	padding-top: 6px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 25px;
+	background-image: url(Adventure/bullet_01.gif);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+}
+div.post .post-title a{
+	color: #600;
+}
+div.post .post-title a:hover {
+	color: #966;
+}
+div.post .post-date{
+	width:690px;
+	margin:0 0 0 0;
+	padding:5px 5px 0 5px;
+	font: 12px Georgia,Serif;
+	color: #600;
+	text-align: right;
+}
+div.post .post-tags{
+	width:690px;
+	margin:0 0 0 0;
+	padding:5px 5px 0 5px;
+	color: #000000;
+	text-align: right;
+	font-family: Georgia, Serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+div.post .post-footer{
+	width:690px;
+	font: 12px Georgia,Serif;
+	color: #600;
+	text-align:left;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 2px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 15px;
+	height: 20px;
+}
+div.post div.post-body{
+	width:690px;
+	margin:0 0 0 0;
+	padding:5px 0 0 15px;
+	font-size:13px;
+	word-break:break-all;
+	text-align:left;
+	line-height:150%;
+}
+div.post-body div.media a{
+	padding-left:16px;
+	background-color: #FBFBFB;
+	background-image: url(Adventure/media.gif);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+
+div.pagebar{
+	margin:0;
+	background-image: url(Adventure/hat.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	overflow: visible;
+	visibility: visible;
+	height: 45px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+div.post-body img{
+	padding:2px;
+	margin:2px;
+	border:1px solid #999;
+	clear : both;
+	float : none;
+}
+
+div.post-body img.thumb {
+	float: right;
+	margin: 0px 5px 5px 0px;
+	padding: 0px;
+	border: 0px;
+	padding: 0px;
+	max-width: 500px;
+	max-height:500px;
+	overflow:hidden;
+	clear:both;
+}
+
+div.post-body p{
+	margin:10px 0 15px 0;
+	padding:0;
+}
+div.post-body p.img{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+div.post-body p.script{
+	padding:6px;
+	text-align:left;
+	background-color: #D0EFF0;
+	border: 1px dashed #666666;
+	margin-top: 8px;
+	margin-right: 0;
+	margin-bottom: 8px;
+	margin-left: 0;
+}
+div.post-body p.inscript{
+	margin:0;
+	padding:0;
+	padding-right:20px;
+	text-align:right;
+}
+div.post-body p.code{
+	padding:5px;
+	border:1px dotted black;
+}
+
+div.post-body h1{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:16px;
+}
+div.post-body h2{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:14px;
+}
+div.post-body h3{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:13px;
+}
+div.post-body h4{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+div.post-body h5{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:11px;
+}
+div.post-body h6{
+	color: #000000;
+	margin:0;
+	padding:0;
+	font-size:10px;
+}
+
+
+
+p.posttop {
+	margin:10px 0 0 0;
+	padding:0 0 2px 16px;
+	background-image: url(Adventure/quote.gif);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+p.postbottom {
+	margin:0 0 10px 0;
+	padding:2px 0 0 16px;
+	background-image: url(Adventure/trackback.gif);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+#frmSumbit{
+	padding:0;
+	margin:0;
+}
+#frmSumbit p{
+	padding:0 0 5px 0;
+}
+input.button{
+	border: 1px solid #CCC;
+	border-top: 1px solid #BEBEBE;
+	border-left: 4px solid #BEBEBE;
+	color: #000;
+	background-color: #FFF;
+}
+input.text {
+	height:12px;
+	padding:2px 0 2px 0;
+	margin:5px 0 5px 0;
+	border: 1px solid #CCC;
+	color: #000;
+	background-color: #FFF;
+}
+textarea.text {
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	font-size: 12px;
+	color: #000;
+	width:80%;
+}
+
+
+
+ul.msg{
+	width:700px;
+	margin:10px 0 20px 10px;
+	padding:0 0 0 0;
+	text-align:left;
+	list-style-position : outside;
+}
+
+li.msgname{
+	margin:0;
+	padding-top: 2px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	padding-left: 30px;
+	background:#f0f0f0;
+}
+li.relation{
+	margin:0;
+	padding-top: 2px;
+	padding-right: 0;
+	padding-bottom: 2px;
+	padding-left: 30px;
+}
+li.tbname{
+	padding:5px 0 2px 5px;
+	margin:0;
+	background:#f0f0f0;
+}
+li.msgurl{
+	border-left:1px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+	text-align:right;
+	padding:2px 10px 2px 10px;
+	margin:0;
+}
+li.msgarticle{
+	border-left:1px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+	list-style-position : outside;
+	padding:10px 10px 0 30px;
+	margin:0;
+	line-height:120%;
+}
+li.msgtime{
+	border-left:1px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+	border-bottom:1px solid #f0f0f0;
+	text-align:right;
+	padding:5px 5px 10px 10px;
+	margin:0 0 0 0;
+	font: 12px Georgia,Serif;
+	color: #6D6D74;
+}
+li.mutualityurl{
+	border-left:1px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+    text-align:left;
+    padding:3px 10px 0px 10px;
+    margin:0;
+    line-height:150%;
+}
+
+.pagebar{
+ line-height:20px;
+ height:20px
+}
+.pagebar a,.pagebar .now-page{
+ padding:1px 3px 2px 3px;
+ margin:0 2px;
+ text-align:center;
+ font-weight:bold;
+ font-family:Verdana;
+ border:1px solid #ccc;
+ text-decoration:none
+}
+.pagebar a:hover{
+ border:1px solid #c00;
+ text-decoration:none
+}
+
+
+@media screen and (max-width:768px) {
+  #divAll {
+    width:100%;
+  }
+  #divNavBar {
+    width:100%;
+  }
+  #divPage {
+    width:100%;
+    padding:0;
+  }
+  #divMiddle {
+    width:100%;
+  }
+  #divTop {
+    width:100%;
+  }
+  #divBottom {
+    width:100%;
+  }
+  #divSidebar {
+    display:none;
+  }
+  #divMain{
+    float: left;
+    width:100%;
+  }
+  #divNavBar ul{
+	float:left;
+  }
+  #BlogCopyRight {
+    display:none;
+  }
+  #t_mapload {
+    display:none;
+  }
+  #mapload {
+    display:none;
+  }
+  div.post {
+    width:98%;
+  }
+
+  div.post .post-title{
+    width:92%;
+  }
+  div.post .post-date{
+    width:92%;
+  }
+  div.post div.post-body{
+    width:92%;
+  }
+  div.post .post-footer{
+    width:92%;
+  }
+  ul.msg{
+    width:100%;
+    margin:0;
+  }
+  img, object {
+    max-width: 92%;
+  }
+  pagebar {
+    padding-left:0;
+  }
+}

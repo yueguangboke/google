@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<theme version="0.1">
+<id>Adventure</id>
+<name>Adventure</name>
+<note>可变配色,支持IE7 FF Opera</note>
+<author>
+	<name>williamlong</name>
+	<url>http://www.williamlong.info/</url>
+	<email>null@null.com</email>
+</author>
+<source>
+	<name>williamlong</name>
+	<url>http://www.williamlong.info/</url>
+	<email>null@null.com</email>
+</source>
+<version>1.1</version>
+<adapted>Z-Blog 1.8</adapted>
+<pubdate>2007-6-26</pubdate>
+<modified>2007-12-15</modified>
+<description><![CDATA[
+<p>从Adventure的一个主题移植过来。</p>
+]]></description>
+</theme>

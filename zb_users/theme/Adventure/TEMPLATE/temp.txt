@@ -1,0 +1,28 @@
+<!--
+
+<div class="post cate18 auth1">
+<h2 class="post-title">
+<a href="http://www.williamlong.info/archives/566.html" target="_blank">[独家评论] Google Earth曝光美国航空母舰</a>
+</h2>
+</div>
+
+<div class="post cate18 auth1">
+<h2 class="post-title">
+<a href="http://www.williamlong.info/archives/562.html" target="_blank">[独家评论] Google Earth下的日本海军驱逐舰</a>
+</h2>
+</div>
+
+<div class="post cate18 auth1">
+<h2 class="post-title">
+<a href="http://www.williamlong.info/archives/676.html" target="_blank">[独家评论] Google Earth下的中国新型战机</a>
+</h2>
+</div>
+
+<div class="post cate18 auth1">
+<h2 class="post-title">
+<a href="http://www.williamlong.info/archives/534.html" target="_blank">[独家评论] Google Earth揭密中国军事设施</a>
+</h2>
+</div>
+
+-->
+

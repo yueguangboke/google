@@ -1,0 +1,58 @@
+<body class="multi default" onload="load()" onunload="GUnload()">
+
+
+<div id="mapload" align="center"></div>
+
+<#template:article-multi#>
+
+<div id="t_mapload">
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAArUAL-By4Tv915glIlNiyFxRaOGOJkr13ad_ZCtnPkr2YbF6kOxRF6ErQCXWim1og4iChhakAYWY0yw" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+	//<![CDATA[
+
+    var photos;
+    function storePhotos(panoramio) { photos = panoramio.photos; }
+
+    function createMarker(point, infomation) {
+          var marker = new GMarker(point);
+          GEvent.addListener(marker, "click", function() {
+            marker.openInfoWindowHtml("<b>" + infomation + "</b>");
+          });
+          return marker;
+        }
+
+    function load() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map"));
+        map.addControl(new GLargeMapControl ());
+		map.setCenter(new GLatLng(36, 102), 4);
+		map.setMapType(G_HYBRID_MAP);
+
+		GEvent.addListener(map, "move", function() {
+        var center = map.getCenter();
+        tx=center.lng();
+        ty=center.lat();
+        var latLngStr = '当前坐标：<br />经度:' + tx + ' <br />纬度:' + ty + ' </center>';
+        document.getElementById("xy").innerHTML = latLngStr;
+      });
+		map.openInfoWindowHtml(map.getCenter(),"<div style=\"width:300px;\"><center>欢迎光临“Google Earth 观察”卫星地图网。</center><br />您可以在这里通过卫星地图查看世界上任何地点。<br /></div>");;
+
+	  }
+    }
+
+	//]]>
+</script>
+<div id="map" style="width: 485px; height: 460px"></div>
+<p align=center>在线地图操作指南：左边的导航可以缩放和移动地图，按住鼠标可以拖拽地图。</p>
+<p align=center>移动地图：在地图上按住鼠标左键拖动或点击地图左上方的方向图标移动地图。</p>
+<p align=center>缩放地图：双击可以直接放大。也可通过地图左上方的加减号或滑动杆来缩放。</p>
+
+</div>
+
+<script type="text/javascript">
+document.getElementById("mapload").innerHTML=document.getElementById("t_mapload").innerHTML;
+document.getElementById("t_mapload").innerHTML="";
+</script>
